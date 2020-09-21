@@ -1,0 +1,27 @@
+.App{
+    text-align: center;
+    background-color:white;
+}
+.app__form{
+    padding:20px;
+    position:fixed;
+    bottom:0;
+    z-index: 1;
+    width:50%;
+    margin:20px;
+}
+.image{
+    height: 100px;
+    width:100px;
+}
+.app__formControl{
+    display: flex !important;
+    flex-direction: row !important;
+    
+}
+.app__icon{
+    flex:1;
+}
+.app__class{
+    flex:5;
+}
